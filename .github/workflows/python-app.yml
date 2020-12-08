@@ -4,6 +4,8 @@
 name: CI flake8
 
 on:
+  commit_comment:
+    branches: [ master ]
   push:
     branches: [ develop ]
   pull_request:
